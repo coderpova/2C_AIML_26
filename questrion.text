@@ -1,0 +1,25 @@
+JavaScript OOP - Scenario-Based Programming Questions
+
+1. University Student Management System
+Create a class Student having rollNo, name, and marks. Initialize these properties using a constructor. Create an instance method displayResult() that displays student details and determines whether the student has passed. Create a static property/method to maintain and display the total number of Student objects created. Create at least three Student objects and demonstrate all methods.
+Concepts Covered: Class, Object, Constructor, Instance Method, Static Method
+
+2. Bank Account Management System
+Create a class BankAccount with accountNo, holderName, and balance. Use a constructor to initialize the account. Provide instance methods deposit(amount), withdraw(amount), and displayBalance(). Withdrawal should not be allowed when the requested amount is greater than the available balance. Create a static method bankInfo() that displays the bank name and general banking information. Create two account objects and perform different transactions on them.
+Concepts Covered: Constructor, Objects, Instance Methods, Static Method, Object State
+
+3. Employee and Manager Payroll System
+Create a base class Employee containing id, name, and basicSalary. Initialize them using a constructor and create a method calculateSalary() that returns the basic salary. Create a derived class Manager that adds an incentive property. Use super() to initialize inherited properties and override calculateSalary() so that a manager's total salary is calculated as basicSalary + incentive. Create objects of both classes and display their salaries.
+Concepts Covered: Inheritance, extends, super(), Constructor, Method Overriding
+
+4. E-Commerce Product System
+Create a class Product with productId, productName, and price. Add an instance method getDiscountedPrice(discount) to calculate the final price. Create a static method compareProducts(p1, p2) that accepts two Product objects and displays the product having the higher price. Create a derived class Electronics having an additional property warranty. Override a suitable display method so that electronics-specific information is also displayed.
+Concepts Covered: Objects as Arguments, Static Method, Instance Method, Inheritance, Overriding
+
+5. Online Cab Booking System
+Create a base class Vehicle having vehicleNo, driverName, and distance. Provide a method calculateFare() in the base class. Create two derived classes Car and Bike. Override calculateFare() such that a car charges Rs. 15 per km while a bike charges Rs. 8 per km. Use constructors and super() appropriately. Also create a static method in Vehicle to display the common booking platform name. Create objects of Car and Bike and calculate their fares for different distances.
+Concepts Covered: Inheritance, Constructor Chaining, Static Method, Method Overriding, Runtime Behavior
+
+6. Hospital Management System
+Create a base class Person with id, name, and age. Create a derived class Doctor containing specialization and consultationFee, and another derived class Patient containing disease and roomNo. Use constructors and super() for initialization. Define displayDetails() in Person and override it in both Doctor and Patient to display their specific information. Add a static member/method in Person to count and display the total number of persons created in the system. Create at least two doctors and two patients and display their details.
+Concepts Covered: Hierarchical Inheritance, Constructor, super(), Static Member, Instance Method, Method Overriding
