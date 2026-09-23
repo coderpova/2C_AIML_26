@@ -1,0 +1,7 @@
+1. git status      status check kro
+git add .   sari file check kro
+
+git status  again check kro
+
+git commit -m "Add JavaScript OOP programs"    commit
+git push -u origin main
